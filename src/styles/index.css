@@ -19,7 +19,7 @@ body {
 .foire{
     font-family: 'Kontes-Compressed';
    font-size: 50px;
-  
+  padding: 3%;
    font-weight: bolder;
 
 }
@@ -27,4 +27,5 @@ body {
 .foire span{
     color: #EEA736;
 }
+
 
