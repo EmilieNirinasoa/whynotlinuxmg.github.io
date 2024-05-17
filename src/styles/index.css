@@ -27,5 +27,11 @@ body {
 .foire span{
     color: #EEA736;
 }
+.question{
+    font-family: 'DMMono-Light';
+    font-size: x-large;
+    color: white;
+    padding-bottom: 3%;
+}
 
 
