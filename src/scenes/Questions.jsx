@@ -1,4 +1,5 @@
 import Pingouin from '../assets/images/pin.png';
+import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
 
 function Questions() {
   return (
@@ -8,16 +9,35 @@ function Questions() {
         <div className="flex justify-center p-4 md:col-span-1">
           <img src={Pingouin} alt="" />
         </div>
-        <div className=" p-4 md:col-span-2 text-left">
-          <div className="question font-bold">À qui s'adresse cet événement?</div>
+        <div className="p-4  md:col-span-2 text-left">
+          <div className="question font-bold flex items-center justify-between border-b border-white pb-4 mb-4">
+            À qui s'adresse cet événement?
+            <IoIosArrowDown className="text-2xl text-white" />
+          </div>
           <div className="reponse mb-4"></div>
-          <div className="question font-bold">Quand est-ce que cet événement aura lieu?</div>
+
+          <div className="question font-bold flex items-center justify-between border-b border-white pb-4 mb-4">
+            Quand est-ce que cet événement aura lieu?
+            <IoIosArrowDown className="text-2xl text-white" />
+          </div>
           <div className="reponse mb-4"></div>
-          <div className="question font-bold">Qui peut participer aux compétitions?</div>
+
+          <div className="question font-bold flex items-center justify-between border-b border-white pb-4 mb-4">
+            Qui peut participer aux compétitions?
+            <IoIosArrowDown className="text-2xl text-white" />
+          </div>
           <div className="reponse mb-4"></div>
-          <div className="question font-bold">Pour plus d'informations, qui puis-je contacter?</div>
+
+          <div className="question font-bold flex items-center justify-between border-b border-white pb-4 mb-4">
+            Pour plus d'informations, qui puis-je contacter?
+            <IoIosArrowDown className="text-2xl text-white" />
+          </div>
           <div className="reponse mb-4"></div>
-          <div className="question font-bold">Comment devenir sponsor?</div>
+
+          <div className="question_last font-bold flex items-center justify-between pb-4 mb-4">
+            Comment devenir sponsor?
+            <IoIosArrowDown className="text-2xl text-white" />
+          </div>
           <div className="reponse mb-4"></div>
         </div>
       </div>
