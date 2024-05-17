@@ -32,6 +32,11 @@ body {
     font-size: x-large;
     color: white;
     padding-bottom: 3%;
+    
 }
 
+.question:not(:last-child) {
+    border-bottom: 1px solid white;
+    padding-bottom: 12px; /* Adjust according to your needs */
+  }
 

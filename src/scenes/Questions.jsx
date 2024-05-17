@@ -8,7 +8,7 @@ function Questions() {
         <div className="flex justify-center p-4 md:col-span-1">
           <img src={Pingouin} alt="" />
         </div>
-        <div className=" p-4 md:col-span-2">
+        <div className=" p-4 md:col-span-2 text-left">
           <div className="question font-bold">À qui s'adresse cet événement?</div>
           <div className="reponse mb-4"></div>
           <div className="question font-bold">Quand est-ce que cet événement aura lieu?</div>
